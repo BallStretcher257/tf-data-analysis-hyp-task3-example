@@ -9,4 +9,4 @@ def solution(x: np.array) -> bool: # Одна или две выборке на 
     # Измените код этой функции
     # Это будет вашим решением
     # Не меняйте название функции и её аргументы
-    return ztest(x, value = 300, alternative = 'smaller')[1] > 0.02 # Ваш ответ, True или False
+    return ztest(x, value = 300, alternative = 'smaller')[1] < 0.02 # Ваш ответ, True или False
